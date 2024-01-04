@@ -9,54 +9,37 @@ class PartnerComponent extends Component
     public function render()
     {
         return <<<'HTML'
-        <section class="container mx-auto">
+        <section  class="container mx-auto">
             <div class=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
                 <div class="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
-                    <h2 class="text-3xl font-['lexend'] font-bold sm:text-4xl">Partners</h2>
+                    <h2 class="text-3xl font-['lexend'] font-bold sm:text-4xl">Grow with us</h2>
 
                     <p class="mt-4 font-['inter'] text-sm text-gray-600">
-                    As we continue to expand and achieve greater success, we are delighted to announce our collaborations with some dining spots, as well as extending our partnerships to include essential services such as package delivery and ride services.
+                    Grow with us as we embark on a journey of innovation and collaboration. Thrive with us in a dynamic environment that values creativity and excellence. Succeed with us as we build a future together, where your skills and passion are the driving force of our success.
                     </p>
 
                     <a
                     href="#"
-                    class="mt-8 inline-block rounded bg-[#96c296] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#89cf89] focus:outline-none focus:ring focus:ring-yellow-400"
+                    class="mt-8 inline-block rounded bg-[#96c296] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#89cf89] focus:outline-none focus:ring focus:ring-slate-200"
                     >
                     Get Started Today
                     </a>
                 </div>
 
-                <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+                <div class="grid font-['inter'] grid-cols-2 gap-4">
                     <a
                     class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                     href="/accountant"
                     >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
+                    <div class="inline-block rounded-lg bg-gray-50 p-3">
+                        <iconify-icon icon="mdi:bike-fast" width="32" height="32"></iconify-icon>
+                    </div>
 
-                    <h2 class="mt-2 font-bold">Accountant</h2>
+                    <h2 class="mt-2 font-bold">Driver</h2>
 
                     <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
+                    Drive into your future with us! Where every journey is an adventure and every mile brings success. Join us now!
                     </p>
                     </a>
 
@@ -64,31 +47,14 @@ class PartnerComponent extends Component
                     class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                     href="/accountant"
                     >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
+                    <div class="inline-block rounded-lg bg-gray-50 p-3">
+                        <iconify-icon icon="carbon:delivery" width="32" height="32"></iconify-icon>
+                    </div>
 
-                    <h2 class="mt-2 font-bold">Accountant</h2>
+                    <h2 class="mt-2 font-bold">Delivery</h2>
 
                     <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
+                    Drive with purpose, deliver with pride! Join our team, where every mile counts in shaping a seamless parcel delivery experience.
                     </p>
                     </a>
 
@@ -96,31 +62,14 @@ class PartnerComponent extends Component
                     class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                     href="/accountant"
                     >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
+                    <div class="inline-block rounded-lg bg-gray-50 p-3">
+                        <iconify-icon icon="jam:computer" width="32" height="32"></iconify-icon>
+                    </div>
 
-                    <h2 class="mt-2 font-bold">Accountant</h2>
+                    <h2 class="mt-2 font-bold">Operator</h2>
 
                     <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
+                    Unlock your potential, join us as an operator! Drive success with precision, efficiency, and a passion for excellence.
                     </p>
                     </a>
 
@@ -128,95 +77,14 @@ class PartnerComponent extends Component
                     class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
                     href="/accountant"
                     >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
+                    <div class="inline-block rounded-lg bg-gray-50 p-3">
+                    <iconify-icon icon="fluent-mdl2:explore-data" width="32" height="32"></iconify-icon>
+                    </div>
 
-                    <h2 class="mt-2 font-bold">Accountant</h2>
+                    <h2 class="mt-2 font-bold">Explore more</h2>
 
                     <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </p>
-                    </a>
-
-                    <a
-                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                    href="/accountant"
-                    >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
-
-                    <h2 class="mt-2 font-bold">Accountant</h2>
-
-                    <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </p>
-                    </a>
-
-                    <a
-                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
-                    href="/accountant"
-                    >
-                    <span class="inline-block rounded-lg bg-gray-50 p-3">
-                        <svg
-                        class="h-6 w-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                        ></path>
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                        ></path>
-                        </svg>
-                    </span>
-
-                    <h2 class="mt-2 font-bold">Accountant</h2>
-
-                    <p class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur.
+                    Join our dynamic team, where innovation meets passion! Elevate your career with us – where every day is extraordinary growth.
                     </p>
                     </a>
                 </div>

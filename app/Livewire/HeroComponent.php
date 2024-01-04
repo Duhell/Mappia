@@ -14,11 +14,16 @@ class HeroComponent extends Component
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-['lexend'] font-bold">Hello there</h1>
-                        <p class="mb-5 font-['inter'] ">Browse menus from your favorite local restaurants and order delivery straight to your door.</p>
-                        <div class="flex gap-x-3 items-center">
-                            <input type="text" placeholder="Type your location" class="input text-black input-bordered w-full max-w-xs" />
-                            <button class="btn bg-[#96c296]">Search</button>
+                        <h1 class="mb-5 text-5xl font-['lexend'] font-bold">Food Trip ba ang Hanap Mo?</h1>
+                        <p class="mb-5 font-['inter'] ">Download na ng aming Mappia App o kaya ay mag order gamit ang aming website!</p>
+                        <div class="flex gap-x-3 justify-center items-center">
+                            <a class="w-[170px] h-auto" href="">
+                                <img class="w-full h-full" src="{{asset('images/download-application-button-apple-app-store-free-vector-removebg-preview.png')}}" alt="apple logo">
+                            </a>
+
+                            <a class="w-[170px] h-auto" href="">
+                                <img class="w-full h-full" src="{{asset('images/PlayStoreButton-removebg-preview.png')}}" alt="android logo">
+                            </a>
                         </div>
                     </div>
                 </div>
