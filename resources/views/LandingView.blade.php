@@ -1,0 +1,9 @@
+@extends('layout.app')
+@section('contents')
+@include('view-components.NavComponent')
+@include('view-components.HeroComponent')
+@include('view-components.PartnerComponent')
+@include('view-components.CarouselRestaurantComponent')
+@include('view-components.AboutComponent')
+@include('view-components.FooterComponent')
+@endsection
