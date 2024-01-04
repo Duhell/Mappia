@@ -9,10 +9,10 @@ class NavBarComponent extends Component
     public function render()
     {
         return <<<'HTML'
-        <div>
-            <div class="navbar bg-base-100">
+        <div class="sticky z-50 top-0 container bg-transparent mx-auto">
+            <div class="navbar bg-transparent text-white">
                 <div class="flex-1">
-                    <a wire:navigate href="/" class="btn btn-ghost text-xl">Mappia</a>
+                    <a wire:navigate href="/" class="text-xl">Mappia</a>
                 </div>
                 <!-- <div class="flex-none">
                     <ul class="menu menu-horizontal px-1">
@@ -31,6 +31,13 @@ class NavBarComponent extends Component
                     </ul>
                 </div> -->
                 <div class="flex-none">
+                    @guest
+                        <div class="flex font-['lexend'] items-center gap-x-4">
+                            <a wire:navigate class="hover:underline hover:underline-offset-4" href="login">Login</a>
+                            <a wire:navigate class="hover:underline hover:underline-offset-4" href="signup">Sign up</a>
+                        </div>
+                    @endguest
+                    @auth
                     <div class="dropdown dropdown-end">
                     <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                         <div class="indicator">
@@ -67,6 +74,7 @@ class NavBarComponent extends Component
                         <li><a>Logout</a></li>
                     </ul>
                     </div>
+                    @endauth
                 </div>
             </div>
         </div>
