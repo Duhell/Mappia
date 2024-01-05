@@ -5,5 +5,8 @@
 @include('view-components.PartnerComponent')
 @include('view-components.CarouselRestaurantComponent')
 @include('view-components.AboutComponent')
+@include('view-components.NewsComponent')
+@include('view-components.FAQComponent')
+@include('view-components.ReachOutComponent')
 @include('view-components.FooterComponent')
 @endsection

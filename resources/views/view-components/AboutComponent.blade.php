@@ -1,4 +1,6 @@
-<section class="mt-14">
+<div class="sm:h-[200px] "></div>
+<div class="divider divider-accent text-lg sm:text-2xl md:text-3xl font-['inter'] font-bold"> What is Mappia?</div>
+<section class="md:mt-14 container mx-auto">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
         <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
@@ -10,7 +12,7 @@
         </div>
 
         <div class="lg:py-24">
-            <h2 class="text-3xl font-bold sm:text-4xl">About Mappia</h2>
+            {{-- <h2 class="text-3xl font-bold sm:text-4xl">About Mappia</h2> --}}
 
             <p class="mt-4 text-gray-600">
             Mappia is derived from the language of the Maranao Tribe that means It's Okay or Good.
@@ -22,7 +24,7 @@
     </div>
 </section>
 
-<section class="mt-14">
+<section class="mt-14 container mx-auto">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
         <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
@@ -34,7 +36,7 @@
         </div>
 
         <div class="lg:py-24">
-            <h2 class="text-3xl font-bold sm:text-4xl">About Mappia</h2>
+            {{-- <h2 class="text-3xl font-bold sm:text-4xl">About Mappia</h2> --}}
 
             <p class="mt-4 text-gray-600">
             The Mappia App was developed to help our kababayans who have difficulty going out of their

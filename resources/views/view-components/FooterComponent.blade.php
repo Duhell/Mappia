@@ -1,7 +1,7 @@
 <footer class="bg-white">
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div
-        class="flex flex-col items-center gap-4 rounded-lg bg-[#8ac48a] p-6 shadow-lg sm:flex-row sm:justify-between"
+        class="flex flex-col items-center gap-4 rounded-lg bg-indigo-600 p-6 shadow-lg sm:flex-row sm:justify-between"
         >
         <strong class="text-xl text-white sm:text-xl"> Make Your Next Career Move! </strong>
 

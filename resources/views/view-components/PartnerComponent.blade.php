@@ -10,7 +10,7 @@
 
             <a
             href="#"
-            class="mt-8 inline-block rounded bg-[#96c296] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#89cf89] focus:outline-none focus:ring focus:ring-slate-200"
+            class="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-slate-200"
             >
             Get Started Today
             </a>
